@@ -21,7 +21,6 @@ function Footer() {
                     <ul className="space-y-2 text-sm text-gray-300">
                         <li><Link to={'/hiragana'} className="hover:text-red-400 transition">Hiragana</Link></li>
                         <li><Link to={'/katakana'} className="hover:text-red-400 transition">Katakana</Link></li>
-                        <li><a href="#n5" className="hover:text-red-400 transition">N5 Lessons</a></li>
                         <li><Link to={'/about'} className="hover:text-red-400 transition">About Us</Link></li>
                     </ul>
                 </div>
