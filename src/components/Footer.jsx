@@ -29,7 +29,7 @@ function Footer() {
                 <div>
                     <h3 className="text-lg font-semibold mb-4">Resources</h3>
                     <ul className="space-y-2 text-sm text-gray-300">
-                        <li><Link href="#blog" className="hover:text-red-400 transition">Blog</Link></li>
+                        <li><Link to={'/blog'} className="hover:text-red-400 transition">Blog</Link></li>
                         <li><Link to={'/faq'} className="hover:text-red-400 transition">FAQs</Link></li>
                         <li><Link to={'/contact'} className="hover:text-red-400 transition">Contact</Link></li>
                         <li><a href="#privacy" className="hover:text-red-400 transition">Privacy Policy</a></li>
