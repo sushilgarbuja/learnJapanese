@@ -15,6 +15,7 @@ import Lesson2Vocabulary from './pages/Lesson2page'
 import Lesson3Vocabulary from './pages/Lesson3page'
 import Lesson4Vocabulary from './pages/Lesson4page'
 import Lesson5Vocabulary from './pages/lesson5Page'
+import Lesson6Vocabulary from './pages/Lesson6page'
 
 function App() {
 
@@ -36,6 +37,7 @@ function App() {
           <Route path='/lessonthree' element={<Lesson3Vocabulary />} />
           <Route path='/lessonfour' element={<Lesson4Vocabulary />} />
           <Route path='/lessonfive' element={<Lesson5Vocabulary />} />
+          <Route path='/lessonsix' element={<Lesson6Vocabulary />} />
         </Routes>
       </BrowserRouter>
     </>

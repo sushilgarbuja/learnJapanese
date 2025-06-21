@@ -39,6 +39,7 @@ const Navbar = () => {
                                     <Link to="/lessonthree" className="block px-4 py-2 hover:bg-gray-100 text-sm">Lesson 3</Link>
                                     <Link to="/lessonfour" className="block px-4 py-2 hover:bg-gray-100 text-sm">Lesson 4</Link>
                                     <Link to="/lessonfive" className="block px-4 py-2 hover:bg-gray-100 text-sm">Lesson 5</Link>
+                                    <Link to="/lessonsix" className="block px-4 py-2 hover:bg-gray-100 text-sm">Lesson 6</Link>
                                 </div>
                             )}
                         </div>
@@ -78,6 +79,7 @@ const Navbar = () => {
                                     <Link to="/lessonthree" onClick={closeMenu} className="block text-gray-600 hover:text-red-500">Lesson 3</Link>
                                     <Link to="/lessonfour" onClick={closeMenu} className="block text-gray-600 hover:text-red-500">Lesson 4</Link>
                                     <Link to="/lessonfive" onClick={closeMenu} className="block text-gray-600 hover:text-red-500">Lesson 5</Link>
+                                    <Link to="/lessonsix" onClick={closeMenu} className="block text-gray-600 hover:text-red-500">Lesson 6</Link>
                                 </div>
                             )}
                         </div>
