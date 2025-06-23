@@ -68,9 +68,10 @@ const Navbar = () => {
                     <div className="md:hidden mt-2 space-y-4 pb-4">
                         <Link to="/hiragana" onClick={closeMenu} className="block text-gray-700 hover:text-red-500">Hiragana</Link>
                         <Link to="/katakana" onClick={closeMenu} className="block text-gray-700 hover:text-red-500">Katakana</Link>
+                        <Link to="/n5lesson" onClick={closeMenu} className="block text-gray-700 hover:text-red-500">N5 Lessons</Link>
 
                         {/* Mobile N5 Lesson Dropdown */}
-                        <div>
+                        {/* <div>
                             <button onClick={toggleLessons} className="flex items-center w-full text-left text-gray-700 hover:text-red-500">
                                 N5 Lessons <FaChevronDown className="ml-1 text-xs" />
                             </button>
@@ -85,7 +86,7 @@ const Navbar = () => {
                                     <Link to="/lessonseven" onClick={closeMenu} className="block text-gray-600 hover:text-red-500">Lesson 7</Link>
                                 </div>
                             )}
-                        </div>
+                        </div> */}
 
                         <Link to="/blog" onClick={closeMenu} className="block text-gray-700 hover:text-red-500">Blog</Link>
                         <Link to="/contact" onClick={closeMenu} className="block text-gray-700 hover:text-red-500">Contact</Link>
