@@ -2,20 +2,19 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import HomePage from './pages/HomePage'
 import HiraganaPage from './pages/HiraganaPage'
 import KatakanaPage from './pages/KatakanaPage'
-import Lesson1Content from './components/Lesson1Content'
 import LessonOnePage from './pages/LessonOnePage'
 import AboutPage from './pages/AboutPage'
 import ContactPage from './pages/ContactPage'
 import LoginPage from './pages/LoginPage'
 import SignupPage from './pages/SignupPage'
 import BlogPage from './pages/BlogPage'
-import { Fa500Px } from 'react-icons/fa'
 import FAQPage from './pages/FAQPage'
 import Lesson2Vocabulary from './pages/Lesson2page'
 import Lesson3Vocabulary from './pages/Lesson3page'
 import Lesson4Vocabulary from './pages/Lesson4page'
 import Lesson5Vocabulary from './pages/lesson5Page'
 import Lesson6Vocabulary from './pages/Lesson6page'
+import Lesson7Vocabulary from './pages/Lesson7Page'
 
 function App() {
 
@@ -38,6 +37,7 @@ function App() {
           <Route path='/lessonfour' element={<Lesson4Vocabulary />} />
           <Route path='/lessonfive' element={<Lesson5Vocabulary />} />
           <Route path='/lessonsix' element={<Lesson6Vocabulary />} />
+          <Route path='/lessonseven' element={<Lesson7Vocabulary />} />
         </Routes>
       </BrowserRouter>
     </>
