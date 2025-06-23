@@ -23,9 +23,10 @@ const Navbar = () => {
                     <div className="hidden md:flex space-x-6 items-center">
                         <Link to="/hiragana" className="text-gray-700 hover:text-red-500">Hiragana</Link>
                         <Link to="/katakana" className="text-gray-700 hover:text-red-500">Katakana</Link>
+                        <Link to="/n5lesson" className="text-gray-700 hover:text-red-500">N5 Lessons</Link>
 
                         {/* Dropdown N5 Lessons */}
-                        <div className="relative group">
+                        {/* <div className="relative group">
                             <button
                                 onClick={toggleLessons}
                                 className="flex items-center text-gray-700 hover:text-red-500 focus:outline-none"
@@ -43,7 +44,7 @@ const Navbar = () => {
                                     <Link to="/lessonseven" className="block px-4 py-2 hover:bg-gray-100 text-sm">Lesson 7</Link>
                                 </div>
                             )}
-                        </div>
+                        </div> */}
 
                         <Link to="/blog" className="text-gray-700 hover:text-red-500">Blog</Link>
                         <Link to="/contact" className="text-gray-700 hover:text-red-500">Contact</Link>
